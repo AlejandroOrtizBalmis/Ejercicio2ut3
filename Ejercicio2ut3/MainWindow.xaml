@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Ejercicio2ut3"
         mc:Ignorable="d"
         Icon="equiposNBA.ico"
-        Title="Equipos NBA" Height="450" Width="1200">
+        Title="Equipos NBA" Height="450" Width="1200"> 
     <StackPanel>
         <Border Margin="5" BorderThickness="3" BorderBrush="Black" CornerRadius="3">
         <StackPanel>
