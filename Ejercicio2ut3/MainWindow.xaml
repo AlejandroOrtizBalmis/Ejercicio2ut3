@@ -6,7 +6,19 @@
         xmlns:local="clr-namespace:Ejercicio2ut3"
         mc:Ignorable="d"
         Icon="equiposNBA.ico"
-        Title="Equipos NBA" Height="450" Width="1200"> 
+        Title="Equipos NBA" Height="450" Width="1200">
+    <Window.Resources>
+        <Style TargetType="WrapPanel">
+            <Setter Property="HorizontalAlignment"
+                    Value="Center" />
+        </Style>
+        <Style TargetType="Image">
+            <Setter Property="MinWidth"
+                    Value="180" />
+            <Setter Property="Height"
+                    Value="130" />
+        </Style>
+    </Window.Resources>
     <StackPanel>
         <Border Margin="5" BorderThickness="3" BorderBrush="Black" CornerRadius="3">
         <StackPanel>
@@ -23,22 +35,12 @@
                        FontSize="30"
                        TextWrapping="Wrap"
                        HorizontalAlignment="Center">Los Ángeles Lakers</TextBlock>
-            <WrapPanel HorizontalAlignment="Center">
-            <Image Source="14_lakers.png"
-                   Height="130"
-                   MinWidth="180"></Image>
-            <Image Source="3_lakers.png"
-                           Height="130"
-                           MinWidth="180"></Image>
-            <Image Source="23_lakers.png"
-                           Height="130"
-                           MinWidth="180"></Image>
-            <Image Source="39_lakers.png"
-                           Height="130"
-                           MinWidth="180"></Image>
-            <Image Source="9_lakers.png"
-                           Height="130"
-                           MinWidth="180"></Image>
+            <WrapPanel >
+            <Image Source="14_lakers.png"></Image>
+            <Image Source="3_lakers.png"></Image>
+            <Image Source="23_lakers.png"></Image>
+            <Image Source="39_lakers.png"></Image>
+            <Image Source="9_lakers.png"></Image>
             </WrapPanel>
         </StackPanel>
         </Border>
@@ -61,22 +63,12 @@
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
                            Foreground="#FFF9F8F8">Miami Heat</TextBlock>
-                <WrapPanel HorizontalAlignment="Center">
-                    <Image Source="13_heat.png"
-                           Height="130"
-                           MinWidth="180"></Image>
-                    <Image Source="22_heat.png"
-                           Height="130"
-                           MinWidth="180"></Image>
-                    <Image Source="7_heat.png"
-                           Height="130"
-                           MinWidth="180"></Image>
-                    <Image Source="99_heat.png"
-                           Height="130"
-                           MinWidth="180"></Image>
-                    <Image Source="14_heat.png"
-                           Height="130"
-                           MinWidth="180"></Image>
+                <WrapPanel>
+                    <Image Source="13_heat.png"></Image>
+                    <Image Source="22_heat.png"></Image>
+                    <Image Source="7_heat.png"></Image>
+                    <Image Source="99_heat.png"></Image>
+                    <Image Source="14_heat.png"></Image>
                 </WrapPanel>
             </StackPanel>
         </Border>
